@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96c1f4f9-171f-447c-9a78-a6884506977c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Recsys$GenFeature_U.coverage" NAME="GenFeature_U Coverage Results" MODIFIED="1556980067953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/FeatureConstruct" />
+    <SUITE FILE_PATH="coverage/Recsys$GenFeature_I.coverage" NAME="GenFeature_I Coverage Results" MODIFIED="1556955769289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/FeatureConstruct" />
+    <SUITE FILE_PATH="coverage/Recsys$DataLinkSet.coverage" NAME="DataLinkSet Coverage Results" MODIFIED="1556111185277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData" />
+    <SUITE FILE_PATH="coverage/Recsys$GenFeature_UI.coverage" NAME="GenFeature_UI Coverage Results" MODIFIED="1556957147013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/FeatureConstruct" />
+    <SUITE FILE_PATH="coverage/Recsys$CutByNum.coverage" NAME="CutByNum Coverage Results" MODIFIED="1555772823602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/PreHandle" />
+    <SUITE FILE_PATH="coverage/Recsys$GenFeature_C.coverage" NAME="GenFeature_C Coverage Results" MODIFIED="1556956973815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/FeatureConstruct" />
+    <SUITE FILE_PATH="coverage/Recsys$GenUICLabel.coverage" NAME="GenUICLabel Coverage Results" MODIFIED="1556955642718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/FeatureConstruct" />
+    <SUITE FILE_PATH="coverage/Recsys$based_GBDT.coverage" NAME="based_GBDT Coverage Results" MODIFIED="1557054208588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/Model" />
+    <SUITE FILE_PATH="coverage/Recsys$KMeans.coverage" NAME="KMeans Coverage Results" MODIFIED="1556957543329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/Model" />
+    <SUITE FILE_PATH="coverage/Recsys$GenDataByDayX2Y.coverage" NAME="GenDataByDayX2Y Coverage Results" MODIFIED="1556955508000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/FeatureConstruct" />
+    <SUITE FILE_PATH="coverage/Recsys$Main.coverage" NAME="Main Coverage Results" MODIFIED="1557025044245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData" />
+    <SUITE FILE_PATH="coverage/Recsys$Analysis.coverage" NAME="Analysis Coverage Results" MODIFIED="1555318052446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MovieLens_100k" />
+    <SUITE FILE_PATH="coverage/Recsys$selectRatio_GBDT.coverage" NAME="selectRatio_GBDT Coverage Results" MODIFIED="1557055865117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/Model" />
+    <SUITE FILE_PATH="coverage/Recsys$selectRatio_LR.coverage" NAME="selectRatio_LR Coverage Results" MODIFIED="1556969908811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/Model" />
+    <SUITE FILE_PATH="coverage/Recsys$GenFeature_UC.coverage" NAME="GenFeature_UC Coverage Results" MODIFIED="1556957131254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/FeatureConstruct" />
+    <SUITE FILE_PATH="coverage/Recsys$RecSys_Test.coverage" NAME="RecSys_Test Coverage Results" MODIFIED="1555157663948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/C14_Complement" />
+    <SUITE FILE_PATH="coverage/Recsys$SVD_test.coverage" NAME="SVD_test Coverage Results" MODIFIED="1555152854326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/C14_Complement" />
+    <SUITE FILE_PATH="coverage/Recsys$based_LR.coverage" NAME="based_LR Coverage Results" MODIFIED="1557022951247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/Model" />
+    <SUITE FILE_PATH="coverage/Recsys$PreHandleData.coverage" NAME="PreHandleData Coverage Results" MODIFIED="1555240231490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MovieLens_100k" />
+    <SUITE FILE_PATH="coverage/Recsys$AboutCTR.coverage" NAME="AboutCTR Coverage Results" MODIFIED="1556363733745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/PreAnalysis" />
+    <SUITE FILE_PATH="coverage/Recsys$CutByDay.coverage" NAME="CutByDay Coverage Results" MODIFIED="1556955306556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/PreHandle" />
+    <SUITE FILE_PATH="coverage/Recsys$GenFeature_IC.coverage" NAME="GenFeature_IC Coverage Results" MODIFIED="1556957004413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/FeatureConstruct" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Recsys" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RS_TmailData/PreAnalysis/AboutCTR.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RS_TmailData/PreAnalysis/AboutCTR1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="59" column="47" lean-forward="true" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RS_TmailData/PreHandle/CutByNum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="10" column="11" selection-end-line="59" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RS_TmailData/DataLinkSet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RS_TmailData/PreHandle/CutByDay.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RS_TmailData/Model/selectRatio_LR.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="819">
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RS_TmailData/Model/based_LR.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="47" selection-start-column="47" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RS_TmailData/Model/tools_LR.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenDataByDayX2Y.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="47" selection-start-line="47" selection-end-line="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RS_TmailData/Draw.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nan</find>
+      <find>4365585</find>
+      <find>LogisticRegression</find>
+      <find>merge</find>
+      <find>Pred</find>
+      <find>Precision</find>
+      <find>time used 17 s</find>
+      <find>time used</find>
+      <find>dfUI_ACounts['UI_ActRankInU'] = dfUI_ACounts.groupby(['userI</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/C14_Complement/Sim_Cal.py" />
+        <option value="$PROJECT_DIR$/C14_Complement/SVD_test.py" />
+        <option value="$PROJECT_DIR$/C14_Complement/RecSys_test.py" />
+        <option value="$PROJECT_DIR$/C14_Complement/RecSys_Test.py" />
+        <option value="$PROJECT_DIR$/MovieLens_100k/PreHandleData.py" />
+        <option value="$PROJECT_DIR$/MovieLens_100k/Sim_Cal.py" />
+        <option value="$PROJECT_DIR$/MovieLens_100k/GenMatrix.py" />
+        <option value="$PROJECT_DIR$/MovieLens_100k/SourceSet.py" />
+        <option value="$PROJECT_DIR$/MovieLens_100k/Analysis.py" />
+        <option value="$PROJECT_DIR$/MovieLens_100k/BaseUser.py" />
+        <option value="$PROJECT_DIR$/MovieLens_100k/Predict.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/PreHandle/CutByMonth.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/tools.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/Tools.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/Template.txt" />
+        <option value="$PROJECT_DIR$/RS_TmailData/FeatureConstruct.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/FeatureConstruct/DivideData.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/PreHandle/CutByNum.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/PreHandle/GenDataByDayX2Y.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/PreHandle/DataLinkSet.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenUICLabel.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/PreHandle/CutByDay.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/Model/KMeans.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenFeature_C.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenFeature_I.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenFeature_IC.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenFeature_UC.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenFeature_U.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenFeature_UI.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/Model/tools_LR.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/Model/tools_GBDT.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/Model/based_GBDT.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/Model/based_Po.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/Model/based_LR.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/Model/based_LR_And_GBDT.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/Model/based_AllPo.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/PreHandle/CutUserByMaxB.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/Main.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/Model/selectRatio_GBDT.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/Model/selectRatio_LR.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/PreAnalysis/AboutCTR.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/DataLinkSet.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/PreAnalysis/AboutCTR1.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenDataByDayX2Y.py" />
+        <option value="$PROJECT_DIR$/RS_TmailData/Draw.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="113" />
+    <option name="y" value="174" />
+    <option name="width" value="1694" />
+    <option name="height" value="814" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Recsys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recsys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recsys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recsys" type="462c0819:PsiDirectoryNode" />
+              <item name="RS_TmailData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recsys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recsys" type="462c0819:PsiDirectoryNode" />
+              <item name="RS_TmailData" type="462c0819:PsiDirectoryNode" />
+              <item name="FeatureConstruct" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recsys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recsys" type="462c0819:PsiDirectoryNode" />
+              <item name="RS_TmailData" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recsys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recsys" type="462c0819:PsiDirectoryNode" />
+              <item name="RS_TmailData" type="462c0819:PsiDirectoryNode" />
+              <item name="PreAnalysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recsys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recsys" type="462c0819:PsiDirectoryNode" />
+              <item name="RS_TmailData" type="462c0819:PsiDirectoryNode" />
+              <item name="PreHandle" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CRT" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/RS_TmailData/PreAnalysis" />
+      <recent name="$PROJECT_DIR$/RS_TmailData/Model" />
+      <recent name="$PROJECT_DIR$/RS_TmailData/FeatureConstruct" />
+      <recent name="$PROJECT_DIR$/MovieLens_100k" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/RS_TmailData/" />
+      <recent name="$PROJECT_DIR$/RS_TmailData/FeatureConstruct" />
+      <recent name="$PROJECT_DIR$/RS_TmailData/PreHandle" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Draw">
+    <configuration name="AboutCTR" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Recsys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RS_TmailData/PreAnalysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RS_TmailData/PreAnalysis/AboutCTR.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AboutCTR1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Recsys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RS_TmailData/PreAnalysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RS_TmailData/PreAnalysis/AboutCTR1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Draw" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Recsys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RS_TmailData" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RS_TmailData/Draw.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GenDataByDayX2Y" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Recsys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RS_TmailData/FeatureConstruct" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenDataByDayX2Y.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="selectRatio_LR" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Recsys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RS_TmailData/Model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RS_TmailData/Model/selectRatio_LR.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.selectRatio_LR" />
+      <item itemvalue="Python.AboutCTR" />
+      <item itemvalue="Python.AboutCTR1" />
+      <item itemvalue="Python.GenDataByDayX2Y" />
+      <item itemvalue="Python.Draw" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Draw" />
+        <item itemvalue="Python.GenDataByDayX2Y" />
+        <item itemvalue="Python.AboutCTR1" />
+        <item itemvalue="Python.AboutCTR" />
+        <item itemvalue="Python.selectRatio_LR" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96c1f4f9-171f-447c-9a78-a6884506977c" name="Default Changelist" comment="" />
+      <created>1555144496981</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555144496981</updated>
+      <workItem from="1555144500771" duration="12528000" />
+      <workItem from="1555224594298" duration="1197000" />
+      <workItem from="1555230935821" duration="13813000" />
+      <workItem from="1555292320907" duration="22787000" />
+      <workItem from="1555405441261" duration="1032000" />
+      <workItem from="1555586610695" duration="2403000" />
+      <workItem from="1555688854738" duration="17209000" />
+      <workItem from="1555896955446" duration="1711000" />
+      <workItem from="1556084432435" duration="18216000" />
+      <workItem from="1556157650397" duration="10038000" />
+      <workItem from="1556275794269" duration="854000" />
+      <workItem from="1556277863348" duration="1028000" />
+      <workItem from="1556359545244" duration="1713000" />
+      <workItem from="1556632638291" duration="744000" />
+      <workItem from="1556682005106" duration="3209000" />
+      <workItem from="1556687346770" duration="17360000" />
+      <workItem from="1556710924056" duration="6071000" />
+      <workItem from="1556718480664" duration="19242000" />
+      <workItem from="1556806991245" duration="63220000" />
+      <workItem from="1556980313509" duration="10006000" />
+      <workItem from="1557054141199" duration="787000" />
+      <workItem from="1557103481205" duration="1844000" />
+      <workItem from="1557142067185" duration="1650000" />
+      <workItem from="1557144475180" duration="3138000" />
+      <workItem from="1557148120005" duration="145000" />
+      <workItem from="1557149468347" duration="1291000" />
+      <workItem from="1557151326860" duration="29715000" />
+      <workItem from="1557497136220" duration="35357000" />
+      <workItem from="1557928228693" duration="18000" />
+      <workItem from="1558520661313" duration="4612000" />
+      <workItem from="1558617188045" duration="5027000" />
+      <workItem from="1558797083606" duration="9239000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="317204000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3" y="0" width="1926" height="1083" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" sideWeight="0.5017007" side_tool="true" weight="0.2594009" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49829933" visible="true" weight="0.22630458" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.2967607" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32937366" />
+      <window_info anchor="bottom" id="Python Console" order="4" weight="0.5075594" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32890365" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.3552769" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.2593486" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32937366" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32960597" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info active="true" anchor="right" id="SciView" order="2" visible="true" weight="0.3855165" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="413" height="855" id="Documentation" order="5" side_tool="true" weight="0.09982487" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" />
+      <window_info anchor="right" id="R Graphics" order="7" weight="0.3290735" />
+      <window_info anchor="right" id="R Packages" order="8" weight="0.3290735" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.17266187" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.29697624" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32937366" />
+      <window_info anchor="bottom" id="Python Console" order="4" weight="0.5075594" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.032397408" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4211663" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32937366" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32982844" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" weight="0.094078586" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="413" height="855" id="Documentation" order="5" side_tool="true" weight="0.09982487" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Recsys$Main.coverage" NAME="Main Coverage Results" MODIFIED="1558524455459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData" />
+    <SUITE FILE_PATH="coverage/Recsys$selectRatio_LR.coverage" NAME="selectRatio_LR Coverage Results" MODIFIED="1558679899508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/Model" />
+    <SUITE FILE_PATH="coverage/Recsys$AboutCTR.coverage" NAME="AboutCTR Coverage Results" MODIFIED="1558798836415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/PreAnalysis" />
+    <SUITE FILE_PATH="coverage/Recsys$based_GBDT.coverage" NAME="based_GBDT Coverage Results" MODIFIED="1557798819866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/Model" />
+    <SUITE FILE_PATH="coverage/Recsys$CutUserByMaxB.coverage" NAME="CutUserByMaxB Coverage Results" MODIFIED="1557499494268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/PreHandle" />
+    <SUITE FILE_PATH="coverage/Recsys$AboutCTR1.coverage" NAME="AboutCTR1 Coverage Results" MODIFIED="1558799642538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/PreAnalysis" />
+    <SUITE FILE_PATH="coverage/Recsys$based_Po.coverage" NAME="based_Po Coverage Results" MODIFIED="1557823373700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/Model" />
+    <SUITE FILE_PATH="coverage/Recsys$based_LR.coverage" NAME="based_LR Coverage Results" MODIFIED="1557823382526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/Model" />
+    <SUITE FILE_PATH="coverage/Recsys$based_LR_And_GBDT.coverage" NAME="based_LR_And_GBDT Coverage Results" MODIFIED="1557833549859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/Model" />
+    <SUITE FILE_PATH="coverage/Recsys$Draw.coverage" NAME="Draw Coverage Results" MODIFIED="1558810350620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData" />
+    <SUITE FILE_PATH="coverage/Recsys$based_AllPo.coverage" NAME="based_AllPo Coverage Results" MODIFIED="1557846277982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/Model" />
+    <SUITE FILE_PATH="coverage/Recsys$selectRatio_GBDT.coverage" NAME="selectRatio_GBDT Coverage Results" MODIFIED="1558679836826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/Model" />
+    <SUITE FILE_PATH="coverage/Recsys$GenDataByDayX2Y.coverage" NAME="GenDataByDayX2Y Coverage Results" MODIFIED="1558808874254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RS_TmailData/FeatureConstruct" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/pandas/core/groupby/groupby.py" />
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/pandas/core/groupby/grouper.py" />
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/pandas/core/generic.py" />
+    <entry file="file://$PROJECT_DIR$/C14_Complement/Sim_Cal.py" />
+    <entry file="file://$PROJECT_DIR$/C14_Complement/SVD_test.py" />
+    <entry file="file://$PROJECT_DIR$/C14_Complement/RecSys_Test.py" />
+    <entry file="file://$PROJECT_DIR$/MovieLens_100k/Predict.py" />
+    <entry file="file://$PROJECT_DIR$/MovieLens_100k/PreHandleData.py" />
+    <entry file="file://$PROJECT_DIR$/MovieLens_100k/GenMatrix.py" />
+    <entry file="file://$PROJECT_DIR$/MovieLens_100k/BaseUser.py" />
+    <entry file="file://$PROJECT_DIR$/MovieLens_100k/SourceSet.py" />
+    <entry file="file://$PROJECT_DIR$/MovieLens_100k/Sim_Cal.py" />
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/pandas/io/parsers.py" />
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/DataSet/day1.csv" />
+    <entry file="file://$PROJECT_DIR$/MovieLens_100k/Analysis.py" />
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/FeatureConstruct.py" />
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/PicSet/cart2buy_100000.png" />
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/PicSet/cart2buy_org.png" />
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/PicSet/cart2buy_10000.png" />
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/PicSet/cart2buy_1000.png" />
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/PicSet/cart2buy_100.png" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1247971763/builtins.py" />
+    <entry file="file:///usr/lib/python3.6/json/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenFeature_I.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-946">
+          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenFeature_U.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/Tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenFeature_IC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenFeature_UI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenFeature_UC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenFeature_C.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenUICLabel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/Model/based_AllPo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/Model/KMeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="103" column="25" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/Model/based_Po.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="102" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/Model/based_LR_And_GBDT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/Model/tools_GBDT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2688">
+          <caret line="128" column="40" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/Model/based_GBDT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="68" column="37" lean-forward="true" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/Template.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/PreHandle/CutUserByMaxB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/Model/selectRatio_GBDT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="866">
+          <caret line="299" lean-forward="true" selection-start-line="299" selection-end-line="299" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/Model/selectRatio_LR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/Model/based_LR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/Model/tools_LR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/PreHandle/CutByDay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/DataLinkSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/PreHandle/CutByNum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="11" selection-end-line="59" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/PreAnalysis/AboutCTR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/PreAnalysis/AboutCTR1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="59" column="47" lean-forward="true" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/FeatureConstruct/GenDataByDayX2Y.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="47" selection-start-line="47" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RS_TmailData/Draw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
